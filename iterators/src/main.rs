@@ -17,4 +17,11 @@ fn main() {
 
  println!("{:?}",nums);
 
+
+ //iteratin usng .next
+
+ let mut _iter = nums.iter_mut();
+ while let Some(val) = _iter.next(){
+    println!("{}",val);
+ }
 }
