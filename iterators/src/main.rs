@@ -24,4 +24,11 @@ fn main() {
  while let Some(val) = _iter.next(){
     println!("{}",val);
  }
-}
+
+ //intoiter
+ let intoiter_iter = nums.into_iter();
+ for val in intoiter_iter{
+    println!("{}",val);
+ }
+ 
+ }
